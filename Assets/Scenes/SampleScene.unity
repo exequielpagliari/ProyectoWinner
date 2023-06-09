@@ -154,6 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: {fileID: 1127514955}
   dialogueText: {fileID: 620889002}
+  animator: {fileID: 1744007387}
 --- !u!4 &146927438
 Transform:
   m_ObjectHideFlags: 0
@@ -668,7 +669,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4.4660125
+  orthographic size: 4.7
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -2144,6 +2145,7 @@ GameObject:
   - component: {fileID: 1744007384}
   - component: {fileID: 1744007386}
   - component: {fileID: 1744007385}
+  - component: {fileID: 1744007387}
   m_Layer: 5
   m_Name: PanelDialogo
   m_TagString: Untagged
@@ -2212,6 +2214,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1744007383}
   m_CullTransparentMesh: 1
+--- !u!95 &1744007387
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744007383}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 48ddff0ddc00e1b45aca1f6be87c21db, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1846349984
 GameObject:
   m_ObjectHideFlags: 0
