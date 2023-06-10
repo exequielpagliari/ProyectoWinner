@@ -1,0 +1,4 @@
+        GUI.color = Color.green;
+        GUI.Label(new Rect(10, 60, 200, 20), "INICIADO EL JUEGO ");
+
+Agrega una Label de Color verde.

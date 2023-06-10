@@ -1,0 +1,45 @@
+Contenido Minimo de la Demo (A Tener en Cuenta al Realizar las Tareas Especificas de Cada Area)
+
+A-Pantalla Inicial (Con Menu)
+B-Menu de Opciones
+C-2 Personajes Seleccionables
+D-5 Niveles = 1 Zona
+E-1 Jefe Final
+F-5 Enemigos Basicos (con IA)
+G-10 Trampas/Objetos con IA
+H-1 Cancion (Para los Niveles)
+I-X Sonidos Correspondientes a Mecanicas, Objetos, Materiales, Etc)
+J-1 Intro con Imagenes
+H-1 Pantalla de Game Over
+I-Dialogos de Protagonistas y el Primer Jefe de Zona
+K-Ilustracion de Recuerdo (Que dio Vida al Jefe de Zona)
+L-5 Mecanicas (Caminar, Correr, Trepar, Saltar, Lanzar Proyectiles)
+M-1 Hud Simple
+N-1 Fuente Personalizada
+O-Items de Salud y Proyectiles
+P-Elementos Derivados de los Anteriores (Como sus Respectivos Codigos, Portraits, Etc)
+
+X-Creo que esto es lo Minimo que deberia tener la Demo, si nos alcanzara el tiempo podriamos incluir algunas cosas mas.
+
+
+
+=============================================
+
+
+---03---
+Programmation:
+
+-Playable Characters (Mechanics)
+-IA Enemies and Bosses (Mechanics)
+-IA Objetcs/Tiles and Weather
+-Interactions and Checkpoints
+-Physics of World (Gravity-Materials)
+-Gameplay and Systems
+-Animations and Scenes
+-Sound Loops and Illumination Effects
+-Hud and Menus
+
+
+
+
+
