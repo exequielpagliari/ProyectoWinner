@@ -2,3 +2,7 @@
         GUI.Label(new Rect(10, 60, 200, 20), "INICIADO EL JUEGO ");
 
 Agrega una Label de Color verde.
+
+
+Sistema de Pausa 
+https://youtu.be/_CWY7NTJeCE
