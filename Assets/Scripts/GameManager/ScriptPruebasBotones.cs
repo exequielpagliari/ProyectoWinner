@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ScriptPruebasBotones : MonoBehaviour
 {
+    
     public AudioClip clip1;
     public AudioClip clip2;
     public AudioClip clip3;
@@ -17,36 +18,38 @@ public class ScriptPruebasBotones : MonoBehaviour
     // Update is called once per frame
     void Update() { }
 
-    private void OnGUI()
-    {
-        if (GUILayout.Button("Sonido1"))
+
+    
+
+
+        public void Sonido1()
         {
+            
             AudioSource.PlayClipAtPoint(clip1, transform.position);
         }
 
-        if (GUILayout.Button("Sonido2"))
+        public void Sonido2()
         {
             AudioSource.PlayClipAtPoint(clip2, transform.position);
         }
 
-        if (GUILayout.Button("Sonido3"))
+        public void Sonido3()
         {
             AudioSource.PlayClipAtPoint(clip3, transform.position);
         }
 
-        if (GUILayout.Button("Sonido4"))
+        public void Sonido4()
         {
             AudioSource.PlayClipAtPoint(clip4, transform.position);
         }
 
-        if (GUILayout.Button("Sonido5"))
+        public void Sonido5()
         {
             AudioSource.PlayClipAtPoint(clip5, transform.position);
         }
 
-        if (GUILayout.Button("Sonido6"))
+        public void Sonido6()
         {
             AudioSource.PlayClipAtPoint(clip6, transform.position);
         }
-    }
 }

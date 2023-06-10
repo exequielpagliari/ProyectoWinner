@@ -39,6 +39,16 @@ public class GameManager : Singleton<GameManager>
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
 
+        if (GUILayout.Button("Prev Scene"))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        }
+
+        if (GUILayout.Button("Parar Música"))
+        {
+            MusicManager.Stop();
+        }
+
         if (GUILayout.Button("Canción 1"))
         {
             MusicManager.clip = cancion1;
@@ -61,6 +71,12 @@ public class GameManager : Singleton<GameManager>
         {
             MusicManager.clip = cancion4;
             MusicManager.Play();
+        }
+
+        if (GUILayout.Button("Salir"))
+        {
+            Application.Quit();
+            OnApplicationQuit();
         }
     }
 }
