@@ -52,4 +52,8 @@ public class DialogueManager : MonoBehaviour
         Debug.Log("Terminó la conversación");
         animator.SetBool("IsOpen", false);
     }
+
+    public bool dialogueOn(){
+        return animator.GetBool("IsOpen");
+    }
 }
