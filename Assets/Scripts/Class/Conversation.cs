@@ -1,4 +1,6 @@
 using UnityEngine;
-public class Conversation : ScriptableObject {
-public ConversationEntry[] ConversationLines;
+
+public class Conversation : ScriptableObject
+{
+    public ConversationEntry[] ConversationLines;
 }
