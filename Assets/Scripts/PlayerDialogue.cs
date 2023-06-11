@@ -6,6 +6,10 @@ public class PlayerDialogue : MonoBehaviour
 {
     public DialogueManager dialogueManager;
 
+    private void Awake() {
+        dialogueManager = FindFirstObjectByType<DialogueManager>();
+    }
+
     private void Update()
     {
         Debug.Log(dialogo);

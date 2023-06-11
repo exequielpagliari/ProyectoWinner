@@ -19,6 +19,13 @@ public class EnemyWalk : MonoBehaviour
 
     public AudioSource audioSource;
 
+    public SoundManager soundmanager;
+
+    private void Start()
+    {
+        soundmanager = FindAnyObjectByType<SoundManager>();
+    }
+
     void Wake()
     {
         _poscX = this.transform.position.x;
@@ -51,23 +58,23 @@ public class EnemyWalk : MonoBehaviour
     {
         if (sonido == "chocar")
         {
-            
             audioSuena = chocar;
-            
         }
 
         if (sonido == "caminar")
         {
             if (!audioSource.isPlaying)
-            audioSuena = caminar;
+                audioSuena = caminar;
         }
 
-        
-
         audioSource.clip = audioSuena;
+        if (!soundmanager.SoundOn)
+            audioSource.Pause();
+            else{
+        if (soundmanager.SoundOn)
+            audioSource.UnPause();
         if (!audioSource.isPlaying)
-        audioSource.Play();
-
-
+            audioSource.Play();
+            }
     }
 }

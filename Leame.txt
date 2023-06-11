@@ -1,0 +1,27 @@
+Versión 4 del prototipo
+=================
+
+El juego se controla por Mouse, Teclado y JoyStick.
+
+Los controles son asociados al Input de Unity.
+
+Los Inputs utilizados son:
+
+Axies Horizontal  =>  Movimiento Horizontal del Personaje
+Fire1		  =>  Inicio y continuación del Dialogo
+Cancel		  =>  Pausa
+
+Las teclas asignadas a eso son:
+Axies Horizontal  =>  A y D , Eje X stick izquierdo
+Fire1		  =>  Control, Alt Gr, Click Izquierdo del Mouse
+Cancel		  =>  Escape
+
+
+
+Cambios de Versión
+=================
+
+Se agregó sistema de Pausa con Sistemas de Sonido y Música.
+
+
+

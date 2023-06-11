@@ -7,6 +7,8 @@ TagManager:
   - floor
   - enemy
   - wall
+  - canvas
+  - pausemenu
   layers:
   - Default
   - TransparentFX
