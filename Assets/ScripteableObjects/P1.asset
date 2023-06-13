@@ -9,9 +9,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28986a0fb31edcc40a6d5ff6f609df9d, type: 3}
-  m_Name: Personaje1
+  m_Script: {fileID: 11500000, guid: b6d95ded47ff801409f5fc341ee5590f, type: 3}
+  m_Name: P1
   m_EditorClassIdentifier: 
   nombre: 
   caraImagen: {fileID: 0}
-  vida: 0
+  vida: 8
+  proyectil1: 7
+  proyectil2: 0
+  llave1: 0
+  llave2: 0

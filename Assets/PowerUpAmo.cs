@@ -8,6 +8,10 @@ public class PowerUpAmo : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) {
         if(other.gameObject.tag == "Player")
+        {
+        other.GetComponent<inventario>().agregarProyectil1(1);
         Destroy(this.gameObject);
+        }
     }
+    
 }
