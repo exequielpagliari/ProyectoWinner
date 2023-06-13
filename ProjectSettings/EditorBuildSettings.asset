@@ -16,5 +16,8 @@ EditorBuildSettings:
     guid: 176bba68c96e55647ad66117f4fe921a
   - enabled: 1
     path: Assets/Scenes/EscenaDialogoPersonaje.unity
+    guid: f99c23cb4fcbc4c4dacc4871fbcf57d7
+  - enabled: 1
+    path: Assets/Scenes/EscenaPruebaEnemigo.unity
     guid: b53bd74474e8d70409571c7bf089e02f
   m_configObjects: {}

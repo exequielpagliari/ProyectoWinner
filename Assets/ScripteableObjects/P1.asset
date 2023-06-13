@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombre: 
   caraImagen: {fileID: 0}
-  vida: 8
-  proyectil1: 7
+  vida: 3
+  proyectil1: 1
   proyectil2: 0
   llave1: 0
   llave2: 0
