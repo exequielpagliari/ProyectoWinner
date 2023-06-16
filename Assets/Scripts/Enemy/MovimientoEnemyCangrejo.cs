@@ -12,9 +12,12 @@ public class MovimientoEnemyCangrejo : MonoBehaviour
 
     private float time;
 
+    private StateMachine stateMachine;
+
     private void Awake()
     {
         rb = this.gameObject.GetComponent<Rigidbody2D>();
+        stateMachine = this.gameObject.GetComponent<StateMachine>();
     }
 
     // Start is called before the first frame update
@@ -28,6 +31,7 @@ public class MovimientoEnemyCangrejo : MonoBehaviour
     {
         if (time + delay < Time.time)
         {
+            
             movimiento();
             time = Time.time;
         }
@@ -41,6 +45,7 @@ public class MovimientoEnemyCangrejo : MonoBehaviour
     int movimiento()
     {
         direction = randomDirection();
+        stateMachine.SetState(State.Moving);
         Debug.Log(direction);
         return direction;
     }

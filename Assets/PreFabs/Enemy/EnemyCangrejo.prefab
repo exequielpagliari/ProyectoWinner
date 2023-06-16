@@ -15,6 +15,8 @@ GameObject:
   - component: {fileID: 4317148950689897437}
   - component: {fileID: 4317148950689897424}
   - component: {fileID: 4317148950689897431}
+  - component: {fileID: 1822754417817586375}
+  - component: {fileID: 8888451740945018113}
   m_Layer: 0
   m_Name: EnemyCangrejo
   m_TagString: enemy
@@ -173,3 +175,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   velocityX: 1
   delay: 1
+--- !u!114 &1822754417817586375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4317148950689897438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e8ae6cf3cadafb4c9258e318224a315, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8888451740945018113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4317148950689897438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1be73d6bbf72d34787c0c708860b094, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

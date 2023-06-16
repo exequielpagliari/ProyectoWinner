@@ -18,23 +18,20 @@ public class MusicManager : Singleton<MusicManager>
     // Update is called once per frame
     void Update()
     {
-        if(pausemanager.PauseSatate){
-            music.Pause();
-        }
-
-        if(!pausemanager.PauseSatate)
-        music.UnPause();
+        ChangeStateMusic();
     }
     
-    void ChangeStateSound()
+    void ChangeStateMusic()
     {
         if (pausemanager.PauseSatate)
         {
             MusicOn = false;
+            music.Pause();
         }
         else
         {
             MusicOn = true;
+            music.UnPause();
         }
     }
 

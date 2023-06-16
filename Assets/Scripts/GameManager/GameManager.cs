@@ -22,6 +22,7 @@ public class GameManager : Singleton<GameManager>
         // - Call backend and get daily challenge and rewards
         _sessionStartTime = DateTime.Now;
         Debug.Log("Game session start @: " + DateTime.Now);
+        MusicManager = this.GetComponent<AudioSource>();
     }
 
     void OnApplicationQuit()

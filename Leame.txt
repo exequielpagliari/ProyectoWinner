@@ -1,4 +1,4 @@
-Versión 4 del prototipo
+Versión 5 del prototipo
 =================
 
 El juego se controla por Mouse, Teclado y JoyStick.
@@ -21,6 +21,8 @@ Cancel		  =>  Escape
 Cambios de Versión
 =================
 
+Se agregó sistema de diálogo, animación de personaje, enemigo autómata, HUD básico y serialización de personaje perpetua.
+------------------------------------------
 Se agregó sistema de Pausa con Sistemas de Sonido y Música.
 
 
